@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".Complaint">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMPLAINTS"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#783937"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textSize="20dp"
+        android:id="@+id/ed1"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="Full name"
+        android:background="@drawable/btn_shape"
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="230dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/ed2"
+        android:textSize="20dp"
+        android:hint="Complaint..."
+        android:background="@drawable/btn_shape"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="600dp"
+        android:textStyle="bold"
+        android:id="@+id/btn_submit"
+        android:background="@drawable/btn_shape"
+        android:text="Submit"
+        android:textSize="30dp"
+        android:fontFamily="monospace"
+        android:textColor="#783937"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
