@@ -150,7 +150,7 @@
                     app:cardElevation="6dp"
 
                     app:cardCornerRadius="12dp"
-                    android:id="@+id/dentist"
+                    android:id="@+id/payment_id"
                     android:layout_margin="12dp"
                     >
                     <LinearLayout
@@ -181,12 +181,13 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/announcement_id"
+
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
                     app:cardElevation="6dp"
 
                     app:cardCornerRadius="12dp"
-                    android:id="@+id/announcement"
                     android:layout_margin="12dp"
                     >
                     <LinearLayout

@@ -40,7 +40,16 @@ public class home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        CardView card5 = (CardView) findViewById(R.id.announcement);
+        CardView card4 = (CardView) findViewById(R.id.payment_id);
+
+        card4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(home.this,pay.class);
+                startActivity(intent);
+            }
+        });
+        CardView card5 = (CardView) findViewById(R.id.announcement_id);
 
         card5.setOnClickListener(new View.OnClickListener() {
             @Override
